@@ -1,0 +1,42 @@
+h1{
+	text-align: center;
+}
+
+body{
+	background-color: #007FFF;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#btn1{
+	width: 100px;
+	height: 25px;
+	background-color: #FA6900;
+	border-radius: 5px;
+	margin: 0 15px;
+}
+
+.grid{
+	width: 960px;
+	height: 960px;
+	//border: solid #000 5px;
+	background-color: #DCDCDC;
+	margin: 30px auto;
+}
+
+.cushion{
+	margin: auto;
+	width: 940px;
+}
+
+.square{
+	width: 54px;
+	height: 54px;
+	margin: 1px 1.5px;
+	background-color: #FA6900;
+	border-radius: 5px;
+	display: inline-block;
+}
