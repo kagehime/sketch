@@ -6,16 +6,23 @@ $(document).ready(function() {
     });	
 });
 
+
 function squareNo(){
 num = prompt("How many squares do you want in the grid?", "0 - 256");
 	if(num < 257 && num > 0){
 		squareGrid(num);
 	}
 	else{
-		alert("Please try again.");
-	}
-		
+		while ((num > 256 || num < 0) || (isNaN(num))) {
+			num= prompt("How many squares do you want in the grid?", "0 - 256");
+			if(num < 257 && num > 0){
+				squareGrid(num);
+			}
+		}
+	}	
 };
+
+
 
 function squareGrid(num){
 	//num = Math.pow(num,2);
